@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xr.safe360.activity.SettingActivity">
+
+<com.xr.safe360.view.SettingItemView
+    xmlns:mobilesafe="http://schemas.android.com/apk/res/com.xr.safe360"
+    android:id="@+id/siv_update"
+    mobilesafe:destitle="自动更新设置"
+    mobilesafe:desoff="自动更新已经关闭"
+    mobilesafe:deson="自动更新已经开启"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</com.xr.safe360.view.SettingItemView>
+<com.xr.safe360.view.SettingItemView
+    xmlns:mobilesafe="http://schemas.android.com/apk/res/com.xr.safe360"
+    android:id="@+id/siv_address"
+    mobilesafe:destitle="电话归属地的显示设置"
+    mobilesafe:desoff="归属地的显示已经关闭"
+    mobilesafe:deson="归属地的显示已经开启"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</com.xr.safe360.view.SettingItemView>
+<com.xr.safe360.view.SettingClickView
+
+    android:id="@+id/scv_toast_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</com.xr.safe360.view.SettingClickView>
+<com.xr.safe360.view.SettingClickView
+
+    android:id="@+id/scv_location"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</com.xr.safe360.view.SettingClickView>
+
+    <com.xr.safe360.view.SettingItemView
+        xmlns:mobilesafe="http://schemas.android.com/apk/res/com.xr.safe360"
+        android:id="@+id/siv_blacknumber"
+        mobilesafe:destitle="黑名单拦截设置"
+        mobilesafe:desoff="黑名单拦截已经关闭"
+        mobilesafe:deson="黑名单拦截已经开启"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

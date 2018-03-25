@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xr.safe360.activity.QueryAddressActivity">
+    <TextView
+        android:text="归属地查询"
+        style="@style/titleStyle" />
+<EditText
+    android:id="@+id/et_phone"
+    android:layout_width="match_parent"
+    android:hint="请输入电话号码"
+    android:inputType="phone"
+    android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/bt_query"
+    android:text="查询"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_query_resuslt"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

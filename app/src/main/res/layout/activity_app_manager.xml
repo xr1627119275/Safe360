@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xr.safe360.activity.AppManagerActivity">
+    <TextView
+        android:text="软件管理"
+        style="@style/titleStyle" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_memory"
+        android:text="磁盘可用"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_sd_memory"
+        android:layout_alignParentRight="true"
+        android:text="SD卡可用"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/lv_app_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+        <TextView
+            android:background="#ccc"
+            android:id="@+id/tv_des"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+</LinearLayout>

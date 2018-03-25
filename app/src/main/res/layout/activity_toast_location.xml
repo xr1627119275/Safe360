@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#accc"
+    tools:context="com.xr.safe360.activity.ToastLocationActivity">
+
+    <Button
+        android:id="@+id/bt_drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drag" />
+
+    <Button
+        android:id="@+id/bt_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        android:background="@drawable/call_locate_blue"
+        android:text="按中提示框拖拽到任意位置" />
+    <Button
+        android:id="@+id/bt_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/call_locate_blue"
+        android:text="按中提示框拖拽到任意位置" />
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xr.safe360.activity.HomeActivity">
+
+    <TextView
+        style="@style/titleStyle"
+        android:text="功能列表" />
+    <!--跑马灯-->
+    <!--<TextView-->
+    <!--android:text="秋天悄悄过去,留下小秘密,啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"-->
+    <!--android:textColor="#000"-->
+    <!--android:textSize="18sp"-->
+    <!--android:singleLine="true"-->
+    <!--android:ellipsize="marquee"-->
+    <!--android:padding="5dp"-->
+    <!--android:focusable="true"-->
+    <!--android:focusableInTouchMode="true"-->
+    <!--android:marqueeRepeatLimit="marquee_forever"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <com.xr.safe360.view.FocusTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="秋天悄悄过去,留下小秘密,啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <GridView
+        android:layout_marginTop="50dp"
+        android:id="@+id/gv_home"
+        android:numColumns="3"
+        android:verticalSpacing="60dp"
+        android:horizontalSpacing="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </GridView>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xr.safe360.activity.AToolActivty">
+<TextView
+    android:text="高级工具"
+    style="@style/titleStyle" />
+
+    <TextView
+        android:id="@+id/tv_query_phone_address"
+        android:gravity="center"
+        android:text="归属地查询"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:background="@drawable/selector_atool_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:text="短信备份"
+        android:id="@+id/tv_sms_backup"
+        android:textColor="#000"
+        android:background="@drawable/selector_atool_item_bg"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/pb_bar"
+        android:visibility="gone"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+</LinearLayout>
